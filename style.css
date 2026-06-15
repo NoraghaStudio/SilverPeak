@@ -323,7 +323,7 @@ body[dir="ltr"] .vm-card::before { left:0; }
 .partners-marquee:hover .partners-track { animation-play-state: paused; }
 .partners-track {
   display:flex; align-items:center; gap:64px; animation:marquee 30s linear infinite;
-  flex-shrink:0; padding:0 32px;
+  flex-shrink:0; padding:0 32px; width:max-content;
 }
 .partners-track img { height:85px !important; width:auto; opacity:1; filter:none; transition:transform 0.3s ease; }
 .partners-track img:hover { transform:scale(1.1); }
